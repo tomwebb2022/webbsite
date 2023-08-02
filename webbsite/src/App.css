@@ -39,5 +39,12 @@
 
 
 p {
-  color:#61dafb
+  color: black;
+  font-family: "Anitilles"; 
+  font-size: 50px;
+
+}
+@font-face {
+  font-family: "Anitilles";
+  src: url(../fonts/Antilles\ Expanded.ttf);
 }
