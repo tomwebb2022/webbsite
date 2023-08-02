@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 // adding a comment to commit
 //testing again
@@ -22,5 +21,5 @@ function App() {
     </div>
   );
 }
-//adding text here to see if vercel accepts the new commit.
+//trying to fix vercel
 export default App;
