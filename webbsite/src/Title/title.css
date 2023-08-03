@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Anitilles";
+    src: url(../../fonts/Antilles\ Expanded.ttf);
+  }
+   
+
+.Title {
+    color: #0E0D0E;
+    font-family: "Anitilles"; 
+    font-size: 200px;
+    margin-top:0px;
+    line-height: 0.75;
+    letter-spacing: -8.5px;
+    
+
+  }
+  

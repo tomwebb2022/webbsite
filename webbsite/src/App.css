@@ -1,20 +1,22 @@
+ @font-face {
+  font-family: "Anitilles";
+  src: url(.././fonts/Antilles\ Expanded.ttf);
+} 
+p {
+  color: #0E0D0E;
+  font-family: "Anitilles"; 
+  font-size: 50px;
+
+}
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #F9FEFF;
+  /* background-color: #F7F8FA; */
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,26 +27,7 @@
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #FCE484;
 }
 
 
-p {
-  color: black;
-  font-family: "Anitilles"; 
-  font-size: 50px;
-
-}
-@font-face {
-  font-family: "Anitilles";
-  src: url(../fonts/Antilles\ Expanded.ttf);
-}

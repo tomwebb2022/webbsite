@@ -1,14 +1,21 @@
+import React from "react";
 import "./App.css";
+import Slogan from "./Slogan/slogan";
+import b2k from "./images/b2k.jpg";
+import Title from "./Title/title";
+import Name from "./Name/name";
+import Credits from "./Credits/credits.js";
 // adding a comment to commit
 //testing again
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>THIS IS MY WEBSITE</p>
-        <p>THERE ARE MANY LIKE IT</p>
-        <p>BUT THIS ONE IS MINE</p>
-
+        <Slogan />
+        <img src={b2k} className="App-logo" alt="logo" />
+        <Name />
+        <Title />
+        <Credits />
         <a
           className="App-link"
           href="https://www.linkedin.com/in/tomwebb10/"
