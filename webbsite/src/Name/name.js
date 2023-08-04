@@ -5,7 +5,7 @@ const Name = () => {
   return (
     <div className="Name-container">
       <div className="Name">
-        <p className="Name">Tom Webb</p>
+        <p className="Name">Tom Webb </p>
       </div>
     </div>
   );

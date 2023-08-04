@@ -12,9 +12,8 @@ const Slogan = () => {
       <div className="Slogan">
         <p className="Slogan">
           {/* IN VIETNAM <br></br> THE WIND<br></br> DOESN'T BLOW<br></br> IT SUCKS */}
-          THIS IS MY WEBSITE <br></br> THERE ARE MANY<br></br> LIKE IT BUT THIS
-          <br></br>
-          ONE IS MINE
+          THIS IS MY WEBSITE<br></br> THERE ARE MANY<br></br>LIKE IT BUT THIS
+          <br></br>ONE IS MINE
         </p>
       </div>
     </div>

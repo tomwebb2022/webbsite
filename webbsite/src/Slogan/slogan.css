@@ -1,14 +1,19 @@
 @font-face {
-    font-family: "Marta_Bold";
-    src: url(../../fonts/Marta_Bold.otf);
+    font-family: "GranbyElephantPro-Regular";
+    src: url(../../fonts/GranbyElephantPro-Regular.ttf);
 }
 
 .Slogan {
     color: #0E0D0E;
-    font-family: Eras Bold ITC;
-    font-weight: 900;
-    -webkit-text-stroke: 1px black; 
+    font-family: "GranbyElephantPro-Regular";
+    font-style: oblique;
+
     text-align: left;
     font-size: 50px;
+
+
+    line-height: 1;
+
+    
     
 }
