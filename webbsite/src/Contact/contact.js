@@ -7,7 +7,7 @@ const Contact = () => {
           Find me on{" "}
           <a href="https://www.linkedin.com/in/tomwebb10/">LinkedIn</a>,{" "}
           <a href="https://github.com/tomwebb2022">GitHub</a> and{" "}
-          <a href="https://lichess.org/tsz0TSmc">Chess</a>
+          <a href="https://lichess.org/y8lC72Q3">Chess</a>
         </p>
       </div>
     </div>
