@@ -6,7 +6,7 @@ const Title = () => {
     <div className="Title-container">
       <div className="Title">
         <p className="Title">
-          FULL<br></br>STACK<br></br>DEVLEOPER
+          FULL<br></br>STACK<br></br>DEVELOPER
         </p>
       </div>
     </div>
