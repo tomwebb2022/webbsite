@@ -6,14 +6,11 @@ p {
   color: #0E0D0E;
   font-family: "Anitilles"; 
   font-size: 50px;
-
 }
-
 
 .App {
   text-align: center;
 }
-
 .App-header {
   /* background-color: #F7F8FA; */
   background-color: white;
@@ -25,9 +22,27 @@ p {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #FCE484;
 }
 
 
+
+/* Media query for smaller devices like iPhone 12/12 Max */
+@media only screen and (max-width: 428px) {
+  .Slogan {
+    font-size: 16px; /* Adjust the font size for smaller devices */
+  }
+
+  p {
+    font-size: 24px; /* Adjust the font size for smaller devices */
+  }
+
+  .helmet {
+    max-width: 300px; /* Adjust the maximum width for smaller devices */
+  }
+
+  .Title {
+    font-size: 20px; /* Adjust the font size for smaller devices */
+  }
+}

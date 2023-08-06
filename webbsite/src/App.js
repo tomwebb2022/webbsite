@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Slogan />
-        <img src={b2c} className="App-logo" alt="logo" />
+        <img src={b2c} className="helmet" alt="logo" />
         <Name />
         <Title />
         <Credits />
