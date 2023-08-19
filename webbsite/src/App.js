@@ -6,6 +6,7 @@ import Title from "./Title/title";
 import Name from "./Name/name";
 import Credits from "./Credits/credits.js";
 import Contact from "./Contact/contact.js";
+
 // adding a comment to commit
 //testing again
 function App() {

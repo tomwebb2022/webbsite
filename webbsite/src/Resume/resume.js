@@ -1,11 +1,10 @@
-import React from "react";
-import "./credits.css";
+import "./resume.css";
 
-const Credits = () => {
+const Resume = () => {
   return (
-    <div className="Credits-container">
-      <div className="Credits">
-        <p className="Credits">
+    <div className="Resume-container">
+      <div className="Resume">
+        <p className="Resume">
           SCHOOL OF CODE presents TOM WEBB as FULL STACK DEVELOPER
           <br></br>
           Skilled in REACT, CSS, HTML, NODE.JS, GIT, GITHUB, VERCEL
@@ -14,4 +13,5 @@ const Credits = () => {
     </div>
   );
 };
-export default Credits;
+
+export default Resume;
