@@ -6,21 +6,24 @@ import Title from "./Title/title";
 import Name from "./Name/name";
 import Credits from "./Credits/credits.js";
 import Contact from "./Contact/contact.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // adding a comment to commit
 //testing again
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Slogan />
-        <img src={b2c} className="helmet" alt="logo" />
-        <Name />
-        <Title />
-        <Credits />
-        <Contact />
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <Slogan className="slogan" />
+          <img src={b2c} className="helmet" alt="logo" />
+          <Name />
+          <Title className="title" />
+          <Credits />
+          <Contact />
+        </header>
+      </div>
+    </BrowserRouter>
   );
 }
 //trying to fix vercel
